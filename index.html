@@ -1,43 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Glovo | test project</title>
-        <link rel="stylesheet" href="../styles/stile.css">
-<!--        <link rel="stylesheet" href="styles/stile.css">-->
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>{% block title%} {% endblock%}</title>
     </head>
     <body>
-        <section id="welcome" class="welcom2">
-            <header>
-                <label>
-                    <input type="text" placeholder="What do you need?">
-                </label>
-                <div>
-                    <button>Register</button>
-                    <button>Login</button>
-                </div>
-            </header>
-            <main>
-                <img src="https://res.cloudinary.com/glovoapp/image/fetch///https://glovoapp.com/images/logo_green.svg" alt="">
-                <h1>Будь-що у місті <span>Kyiv правый</span> Pick a city Доставимо за лічені хвилини</h1>
-                <div>
-                    <a href="https://glovoapp.com/uk/kie/category/RESTAURANT" target="_blank">
-                        <img src="https://res.cloudinary.com/glovoapp/w_140,h_140,c_fit,f_auto,q_auto/StoreCategories/prj0mlcuvmymzfh8pqjz" alt="Restaurants">
-                        <p>Restaurants</p>
-                    </a>
-                    <a href="https://glovoapp.com/uk/kie/store/mcdonald-s-kie/" target="_blank">
-                        <img src="https://res.cloudinary.com/glovoapp/w_140,h_140,c_fit,f_auto,q_auto/StoreCategories/zbgw4gcedienbqpbse4e" alt="McDonald's">
-                        <p>McDonald's</p>
-                    </a>
-                </div>
-	<div class="collapse navbar-collapse" id="navbarNav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+              </li>
               <li class="nav-item">
-                <a class="nav-link" href="base.html">Base</a>
+                <a class="nav-link" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Logout</a>
               </li>
             </ul>
           </div>
-            </main>
-        </section>
+        </nav>
+<div class="p-3 mb-2 bg-primary text-white"><h1>Rainbow</h1>
+
+</div>
+<div class="p-3 mb-2 bg-secondary text-red">.bg-secondary</div>
 <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
 <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
 <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
@@ -45,5 +36,8 @@
 <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
 <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
 <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>
